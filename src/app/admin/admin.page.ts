@@ -4,11 +4,11 @@ import { Router } from '@angular/router';
 declare var jQuery;
 
 @Component({
-  selector: 'app-home',
-  templateUrl: 'home.page.html',
-  styleUrls: ['home.page.scss'],
+  selector: 'app-admin',
+  templateUrl: './admin.page.html',
+  styleUrls: ['./admin.page.scss'],
 })
-export class HomePage implements OnInit {
+export class AdminPage implements OnInit {
 
   constructor(private platform: Platform, private router: Router) {
     this.platform.ready().then(() => {

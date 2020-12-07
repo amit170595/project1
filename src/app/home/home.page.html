@@ -1,20 +1,48 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Blank
-    </ion-title>
-  </ion-toolbar>
+<ion-header>
+  <link href='https://fonts.googleapis.com/css?family=Archivo Narrow' rel='stylesheet'>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lykmapipo/themify-icons@0.1.2/css/themify-icons.css">
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+<ion-content class="homePage">
+  <div class="pagecontainer">
+  <div class="hHdr">
+   <div class="topNavLogo"><h1><a href="#"><img src="../../../../assets/images/school-app-logo.png"/></a></h1></div>
+    
+    <div class="pageToFro"><a href="" class="backBtn"><i class="ti-arrow-left"></i></a><h4>Sign In</h4></div>
+  </div><!--fixHdr ends-->
+  
+  
+  
+  <div class="mainContainer">
+  
+  
+  <p class="aCentre">Try As</p>
+  <ul class="siginTypes">
+    <li>Institute</li>
+     <li>Student</li>
+  </ul>
+  
+  
+  
+  <h5 class="orHead">Or Sign in using</h5>
+  <div class="userLogin">
+  <form>
+    <input type="text" placeholder="Username"/>
+    <input type="password" placeholder="Password"/>
+    <input type="submit" value="Sign In"/>
+  </form>
   </div>
+  
+  <p class="troubleMsg">Trouble Signing In? <a href="">Contact</a> your admin</p>
+  
+  </div><!--mainContainer-->
+  
+  <div class="clear"></div> 
+  
+  
+   
+   <a href="javascript:void(0);" class="scrollup" style="display: block;">↑</a>
+  
+    
+     </div> <!--homePagecontainer ends-->
 </ion-content>
